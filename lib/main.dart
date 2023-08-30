@@ -62,7 +62,7 @@ class MainPage extends StatelessWidget {
                 if (state is NewsInitialState)
                   Center(
                     child: Text(
-                      'Новостей пока нет',
+                      'Новостей пока нет ',
                     ),
                   ),
                 if (state is NewsLoadedState)
